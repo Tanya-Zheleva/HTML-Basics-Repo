@@ -1,5 +1,5 @@
 body {
-    background-color: #b3d9ff;
+    background-color: #a3d7e0;
 }
 
 ul {
@@ -8,4 +8,18 @@ ul {
 
 dt {
     font-style: italic;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border: 1px solid;
+}
+
+hr {
+    border: 1px solid #bbbec1;
+}
+
+.info {
+    font-weight: bold;
 }
