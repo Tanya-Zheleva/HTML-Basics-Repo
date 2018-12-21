@@ -1,0 +1,46 @@
+table {
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+td {
+    border: 1px solid lightgray;
+}
+
+td.info {
+    text-align: right;
+    font-weight: bold;
+}
+
+td.data {
+    width: 350px;
+}
+
+label.state-info {
+  
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    text-align: right;
+    font-weight: bold;
+}
+
+#month {
+    width: 10%;
+}
+
+#day {
+    width: 10%;
+}
+
+#year {
+    width: 20%;
+}
+
+tfoot td {
+    text-align: center;
+    background-color: #e6ffe6;
+}
+
+form {
+    width: 20%;
+}
