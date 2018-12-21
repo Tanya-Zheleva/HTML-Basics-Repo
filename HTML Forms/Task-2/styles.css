@@ -1,0 +1,51 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding-left: 5px;
+}
+
+th.section {
+    height: 35px;
+}
+
+th.info {
+   padding: 7px;
+}
+
+tr.row {
+    height: 35px;
+}
+
+td.total {
+    text-align: center;
+    font-weight: bold;
+}
+
+tfoot td {
+    border-right: none;
+}
+
+a.btn {
+    width: 85px;
+    height: 20px;
+    display: inline-block;
+    padding-top: 3px;
+    background-color: lightgray;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid black;
+}
+
+a.btn:first-child {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+a.btn:last-child {
+    margin-left: 10px;
+    margin-right: 10px;
+}

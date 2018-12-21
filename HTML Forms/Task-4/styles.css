@@ -1,0 +1,11 @@
+table {
+    width: 50%;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid lightgray;
+    padding: 3px;
+    font-weight: normal;
+}
