@@ -44,26 +44,27 @@
                     </th>
                     <th class="fill">
                         <input id="unit-price" type="text" size="8">
-                        <!-- <img src="symbol.PNG" alt="Price"> -->
-                        <!-- <input type="image" src="symbol.PNG" alt="Price"> -->
+                        <button>&yen;</button> 
                     </th>
                     <th class="fill">
                         <input id="unit-quantity" type="text" size="10">
                     </th>
                     <th class="fill">
                         <input id="units-stock" type="text" size="8">
+                        <button>&yen;</button> 
                     </th>
                     <th class="fill">
                         <input id="discontinued" type="checkbox">
+                        <button>&yen;</button> 
                     </th>
                 </tr>
             </thead>
             <tfoot>
                 <tr>
-                    <th colspan="6">
+                    <td colspan="6">
                         <div class="icons">
-                            <img src="start.PNG" alt="Start">
-                            <img src="prev.PNG" alt="Prev">
+                            <button type="submit">|&lt;</button>
+                            <button type="submit">&lt;</button>
                             <span>1</span>
                             <span>2</span>
                             <span>3</span>
@@ -75,9 +76,18 @@
                             <span>9</span>
                             <span>10</span>
                             <span>...</span>
-                            <img src="next.PNG" alt="Next">
+                            <button type="submit">&gt;</button>
+                            <button type="submit">&gt;|</button>
+                            <label for="page-size">Page size:</label>
+                            <select id="page-size">
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="20">20</option>
+                                <option value="30">30</option>
+                            </select>
+                            <span>335104 items in 33511 pages</span>
                         </div>
-                    </th>
+                    </td>
                 </tr>
             </tfoot>
             <tbody>
@@ -87,7 +97,7 @@
                     <td>$18.00</td>
                     <td>10 boxes x 20 bags</td>
                     <td>39</td>
-                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox" disabled></td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -95,7 +105,7 @@
                     <td>$19.00</td>
                     <td>24-12 oz bottles</td>
                     <td>17</td>
-                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox" disabled></td>
                 </tr>
                 <tr>
                     <td>3</td>
@@ -103,7 +113,7 @@
                     <td>$10.00</td>
                     <td>12-500 ml bottles</td>
                     <td>13</td>
-                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox" disabled></td>
                 </tr>
                 <tr>
                     <td>4</td>
@@ -111,7 +121,7 @@
                     <td>$22.00</td>
                     <td>48-6 oz jars</td>
                     <td>53</td>
-                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox" disabled></td>
                 </tr>
                 <tr>
                     <td>5</td>
@@ -119,7 +129,7 @@
                     <td>$21.35</td>
                     <td>36 boxes</td>
                     <td>0</td>
-                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox" checked disabled></td>
                 </tr>
                 <tr>
                     <td>6</td>
@@ -127,7 +137,7 @@
                     <td>$25.00</td>
                     <td>12-8 oz jars</td>
                     <td>120</td>
-                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox" disabled></td>
                 </tr>
                 <tr>
                     <td>7</td>
@@ -135,7 +145,7 @@
                     <td>$30.00</td>
                     <td>12-1 lb pkgs.</td>
                     <td>15</td>
-                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox" disabled></td>
                 </tr>
                 <tr>
                     <td>8</td>
@@ -143,7 +153,7 @@
                     <td>$40.00</td>
                     <td>12-12 oz jars</td>
                     <td>6</td>
-                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox" disabled></td>
                 </tr>
                 <tr>
                     <td>9</td>
@@ -151,7 +161,7 @@
                     <td>$97.00</td>
                     <td>18-500 g pkgs.</td>
                     <td>29</td>
-                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox" checked disabled></td>
                 </tr>
                 <tr>
                     <td>10</td>
@@ -159,7 +169,7 @@
                     <td>$31.00</td>
                     <td>12-500 ml jars.</td>
                     <td>31</td>
-                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox" disabled></td>
                 </tr>
             </tbody>
         </table>

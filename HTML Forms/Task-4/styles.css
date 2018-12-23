@@ -12,7 +12,7 @@ tfoot, th, td {
     height: 25px;
 }
 
-.fill {
+th.fill {
     height: 30px;
 }
 
@@ -53,19 +53,12 @@ th.disq {
     width: 80px;
 }
 
-input[type="image"] {
-    width: 20px;
-    height: 20px;
-    margin-top: 8px;
-    margin-left: 3px;
-}
-
-.icons {
+div.icons {
     margin-top: 2px;
     margin-left: 5px;
 }
 
-img {
-    width: 20px;
-    height: 20px;
+div.icons span:last-child {
+    text-align: right;
+    padding-left: 270px;
 }

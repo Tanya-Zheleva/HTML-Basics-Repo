@@ -15,6 +15,11 @@ thead tr {
     height: 30px;
 }
  
+th {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
 a {
     font-weight: normal;
     text-align: center;
