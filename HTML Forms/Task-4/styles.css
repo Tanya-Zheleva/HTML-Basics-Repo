@@ -1,11 +1,71 @@
 table {
-    width: 50%;
-    border: 1px solid lightgray;
+    border: 1px solid darkgray;
     border-collapse: collapse;
+    width: 850px;
 }
 
-th {
-    border: 1px solid lightgray;
-    padding: 3px;
+thead, tfoot {
+    background: linear-gradient(90deg, rgba(225,224,231,1) 0%, rgba(238,247,250,1) 100%);
+}
+
+tfoot, th, td {
+    height: 25px;
+}
+
+.fill {
+    height: 30px;
+}
+
+th, td {
+    border: 1px solid darkgray;
     font-weight: normal;
+    font-size: 0.9em;
+    text-align: left;
+    padding-left: 5px;
+}
+
+input {
+    margin-left: 5px;
+}
+
+th.id {
+    width: 70px;
+    text-align: center;
+}
+
+th.name {
+    width: 250px;
+}
+
+th.price {
+    width: 180px;
+}
+
+th.quantity {
+    width: 180px;
+}
+
+th.stock {
+    width: 180px;
+}
+
+th.disq {
+    width: 80px;
+}
+
+input[type="image"] {
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 3px;
+}
+
+.icons {
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
 }
