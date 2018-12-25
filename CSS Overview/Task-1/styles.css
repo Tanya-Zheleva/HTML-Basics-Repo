@@ -1,0 +1,53 @@
+table {
+    width: 260px;
+    background-color: #787882;
+    font-family: sans-serif;
+}
+
+th {
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: normal;
+    color: lightgray;
+}
+
+td {
+    text-align: left;
+    color: white;
+    font-size: 0.7em;
+    padding: 6px;
+}
+
+.info {
+    text-align: left;
+    font-style: italic;
+}
+
+div {
+    margin-top: 10px;
+}
+
+span{
+    display: block;
+    margin-top: 3px;
+}
+
+td.status {
+    font-weight: bold;
+    color: orangered;
+}
+
+div span:nth-child(2) {
+    font-weight: bold;
+    color: red;
+}
+
+div span:first-child {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+td.gray-col {
+    color: lightgray;
+}
