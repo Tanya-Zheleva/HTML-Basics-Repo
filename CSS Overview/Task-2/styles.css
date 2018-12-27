@@ -8,6 +8,10 @@ tr {
     height: 25px;
 }
 
+tr:nth-child(2n) {
+    background-color: #eaecef;
+}
+
 thead tr {
     background-color: #2eb51c;
     color: white;
@@ -50,19 +54,5 @@ th.promoted {
 .flag {
     width: 15px;
     height: 10px;
-    overflow: hidden;
-    border: 1px solid #efefef;
     margin-right: 3px; 
-}
-
-.germany {
-    background: 
-    linear-gradient(to bottom, black calc(100% / 3), 
-    #DD0000 calc(100% / 3),
-    #DD0000 calc(100% / 3 * 2), 
-    #FFCE00 calc(100% / 3 * 2)); 
-}
-
-div {
-    display: inline-block;
 }
