@@ -1,0 +1,10 @@
+body {
+    width: 50%;
+}
+
+div {
+    margin-right: 20px;
+	border: 1px solid red;
+	border-radius: 50px;
+    background-color: black;
+}
