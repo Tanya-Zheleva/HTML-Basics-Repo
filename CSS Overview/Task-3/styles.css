@@ -32,12 +32,8 @@ ul li:nth-child(2) a {
 }
 
 .overflow {
-    max-width: 124ch;
-    white-space: nowrap;
     overflow: hidden; 
-}
-
-.word {
+    white-space: nowrap;
     text-overflow: clip; 
 }
 

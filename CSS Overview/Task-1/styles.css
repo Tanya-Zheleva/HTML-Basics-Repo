@@ -27,7 +27,7 @@ div {
     margin-top: 10px;
 }
 
-span{
+span {
     display: block;
     margin-top: 3px;
 }
@@ -42,12 +42,14 @@ div span:nth-child(2) {
     color: red;
 }
 
-div span:first-child {
-    display: list-item;
-    list-style-type: disc;
-    list-style-position: inside;
-}
-
 td.gray-col {
     color: lightgray;
+}
+
+span.dot {
+    height: 9px;
+    width: 9px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    display: inline-block;
 }
