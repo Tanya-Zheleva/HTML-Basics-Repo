@@ -1,0 +1,55 @@
+div.container {
+    width: 420px;
+    height: 550px;
+    background-color: #d9dce0;
+    border-radius: 5px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 1.2em;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+div.category {
+    width: 400px;
+    height: 140px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 160px;
+    height: 105px;
+    margin-top: 12px;
+    margin-left: 12px;
+    border: 1px solid black;
+}
+
+div.category p {
+    width: 170px;
+    font-size: 0.9em;
+    position: relative;
+    left: 190px;
+    bottom: 125px;
+}
+
+div.category button {
+    width: 80px;
+    height: 28px;
+    color: white;
+    background: #7f1d0c;
+    background: -moz-linear-gradient(left, #7f1d0c 24%, #f6290c 25%);
+    background: -webkit-linear-gradient(left, #7f1d0c 24%, #f6290c 25%);
+    background: linear-gradient(to right, #7f1d0c 24%, #f6290c 25%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f1d0c', endColorstr='#f6290c', GradientType=1);
+}
+
+div.category button {
+    display: inline;
+    position: relative;
+    left: 225px;
+    bottom: 105px;
+}

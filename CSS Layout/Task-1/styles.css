@@ -1,0 +1,20 @@
+ul {
+    list-style-type: none;
+}
+
+li li {
+    display: none;
+}
+
+p {
+    display: inline;
+}
+
+ul li:hover p {
+    text-decoration: underline;
+}
+
+ul li:hover li {
+    display: block;
+    color: darkgrey;
+}
