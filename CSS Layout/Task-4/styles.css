@@ -1,0 +1,129 @@
+div.container {
+    width: 50%;
+    height: 750px;
+    border: 1px solid black;
+}
+
+aside.menu {
+    width: 15%;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+h4 {
+    margin-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li:first-child {
+    font-weight: bold;
+    color: brown;
+}
+
+main {
+    width: 60%;
+    height: 700px;
+    display: inline-block;
+    border: 1px solid darkgray;
+    position: relative;
+    bottom: 100px;
+}
+
+button {
+    width: 120px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+div header {
+    background-color: #96918b;
+    color: white;
+    font-weight: bold;
+    padding-left: 7px;
+}
+
+img {
+    width: 180px;
+    height: 110px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+div.tutorial {
+    height: 160px;
+}
+
+div.tutorial p {
+    position: relative;
+    left: 200px;
+    bottom: 120px;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+a {
+    color: brown;
+}
+
+div.examples, div.reference, div.quiz {
+    margin-bottom: 20px;
+}
+
+hr:last-of-type {
+    margin-bottom: 20px;
+}
+
+aside.options {
+    width: 21%;
+    display: inline-block;
+    margin-left: 1px;
+}
+
+div.search {
+    border: 1px solid darkgray;
+    padding-bottom: 7px;
+    height: 100px;
+}
+
+div.search a {
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 1.0em;
+    display: block;
+}
+
+button.btn {
+    width: 35px;
+    height: 25px;
+}
+
+input {
+    margin-left: 15px;
+}
+
+form {
+    margin-top: 8px;
+}
+
+div.styles {
+    border: 1px solid darkgray;
+}
+
+div.styles button {
+    width: 140px;
+    height: 40px;
+    font-size: 1.1em;
+    background: #79c8ea;
+    background: -moz-linear-gradient(left, #79c8ea 0%, #e4f5fc 14%, #e4f5fc 89%, #7cc9ea 100%);
+    background: -webkit-linear-gradient(left, #79c8ea 0%, #e4f5fc 14%, #e4f5fc 89%, #7cc9ea 100%);
+    background: linear-gradient(to right, #79c8ea 0%, #e4f5fc 14%, #e4f5fc 89%, #7cc9ea 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79c8ea', endColorstr='#7cc9ea', GradientType=1);
+    color: #65dff7;
+}
+
+div.styles a {
+    text-align: center;
+}

@@ -1,35 +1,67 @@
-.container {
-    background-color: #EEEEEE;
-    width: 33%;
+div.container {
+    width: 420px;
+    height: 550px;
+    background-color: #f2f3f4;
+    border-radius: 5px;
 }
- 
-.category {
-    border: 1px solid grey;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 40px;
-    display: flex;
+
+h3 {
+    font-weight: normal;
+    font-size: 1.2em;
+    font-family: Lucida Console, Courier, monospace;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+div.category {
+    width: 400px;
+    height: 140px;
+    border: 1px solid darkgray;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    background-color: white;
 }
  
 img {
-    margin: 20px;
-    width: 180px;
-    height: 100px;
+    width: 160px;
+    height: 105px;
+    margin-top: 12px;
+    margin-left: 12px;
+    border: 1px solid darkgray;
 }
  
 p {
     font-size: 0.9em;
-} 
+    text-align: left;
+    position: relative;
+    left: 190px;
+    bottom: 125px;
+}
 
 div.category button {
-    float: right;
-    margin-right: 3px;
-    width: 70px;
-    height: 28px;
+    width: 75px;
+    height: 25px;
     color: white;
     background: #7f1d0c;
     background: -moz-linear-gradient(left, #7f1d0c 24%, #f6290c 25%);
     background: -webkit-linear-gradient(left, #7f1d0c 24%, #f6290c 25%);
     background: linear-gradient(to right, #7f1d0c 24%, #f6290c 25%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f1d0c', endColorstr='#f6290c', GradientType=1);
+}
+
+div.container div.category div.buttons {
+    position: relative;
+    left: 230px;
+}
+
+div.container div.category:first-of-type div.buttons {
+    bottom: 95px;
+}
+
+div.container div.category:nth-of-type(2) div.buttons {
+    bottom: 111px;
+}
+
+div.container div.category:last-of-type div.buttons {
+    bottom: 129px;
 }
