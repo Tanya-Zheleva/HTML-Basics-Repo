@@ -1,0 +1,63 @@
+div.container {
+  width: 870px;
+  background-color: #003333;
+  border-radius: 5px;
+}
+
+nav {
+  display: inline-block;
+  margin: 10px 0px 20px 15px;
+}
+
+nav button {
+  font-size: 0.8em;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  background-color: lightslategray;
+  opacity: 0.7;
+  border: none;
+  padding: 13px;
+}
+
+nav button:hover {
+  text-decoration: underline;
+}
+
+nav button:first-of-type {
+  background-color: initial;
+  opacity: 1;
+}
+
+aside {
+  width: 310px;
+  display: inline-block;
+  color: lightgray;
+}
+
+aside div {
+  width: 275px;
+  border-top: 1px solid lightgrey;
+  padding: 15px;
+}
+
+aside div:hover {
+  background-color: #29a3a3;
+  border: none;
+}
+
+aside div:first-of-type {
+  border-top: none;
+}
+
+main {
+  display: inline-block;
+}
+
+iframe {
+  width: 510px;
+  height: 315px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+}
+/*# sourceMappingURL=styles.css.map */
